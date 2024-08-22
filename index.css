@@ -1,0 +1,145 @@
+ @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Righteous;
+    background-color: black;
+}
+
+nav{
+    font-style: none;
+    appearance: none;
+    list-style: none;
+    display: flex;
+    height: 65px;
+    border-bottom: 2px solid black;
+    align-items: center;
+    color: white;
+    background-color: rgb(54, 52, 52);
+}
+
+
+nav li{
+    padding: 1rem;
+}
+
+
+.brand img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    gap: 10px;
+}
+
+.container
+{
+   min-height: 80vh;
+   background-color: grey;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   margin: 1rem auto;
+   width: 70%;
+   border-radius: 1rem;
+   background-image: url(./assets/wallpaperflare.com_wallpaper.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.container-active1{
+    background-image: url(assets/gif.gif);
+}
+.container-active2{
+    background-image: url(./assets/wallpaperflare.com_wallpaper.jpg);
+}
+
+h1{
+    margin:15px;
+    stroke: black;
+    font-size: 3rem;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#kakashi{
+    position: absolute;
+    border-radius: 100%;
+    width: 71px;
+    right: 35.7%;
+    top: 48.59%;
+}
+
+#eyehider{
+    width: 50px;
+    height:15px;
+    background-color: black;
+    position: absolute;
+    transform: rotate(-10deg);
+    right: 36.68%;
+    top: 49%;
+    border-radius: 10%;
+
+}
+
+.bottom
+{
+    position: sticky;
+    height: 5rem;
+    bottom: 0;
+    background-color: rgb(54, 52, 52);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top:14px;
+    font-size: xx-large;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+}
+#gif{
+    width:50px;
+    position: absolute;
+    left: 30%;
+    margin-top: -10px;
+    opacity: 0;
+}
+.songitem{
+    height: 10px;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    width: fit-content;
+    justify-items: center;
+    align-items: center;
+    margin: 20px 10px;
+    border: 1px white solid;
+    border-radius: 1rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.songitem i:hover{
+    color: aqua;
+}
